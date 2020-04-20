@@ -22,17 +22,11 @@ public class BeerHouse {
     }
 
     public Boolean beerHouseFull (){
-        if (getTotalStock()==max){
-            return true;
-        }
-        return false;
+        return getTotalStock().equals(max);
     }
 
     public Boolean beerHouseEmpty(){
-        if (getTotalStock()==0){
-            return true;
-        }
-        return false;
+        return getTotalStock().equals(0);
     }
 
     public BeerType deleteOne(){
