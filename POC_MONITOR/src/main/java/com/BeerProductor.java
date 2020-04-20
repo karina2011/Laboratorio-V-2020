@@ -11,7 +11,7 @@ public class BeerProductor implements Runnable {
     private final BeerHouse beerHouse;
     private String cuit;
     private String name;
-    private final int TIEMPOESPERA = 1500;
+    private final int TIEMPOESPERA = 10;
     public BeerProductor(BeerHouse beerHouse, String cuit, String name)
     {
         this.beerHouse = beerHouse;

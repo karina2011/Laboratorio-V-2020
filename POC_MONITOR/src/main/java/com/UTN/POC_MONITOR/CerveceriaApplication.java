@@ -11,7 +11,7 @@ public class CerveceriaApplication {
 	private static BeerHouse beerHouse;
 	private static Thread beerProductor;
 	private static Thread [] beerConsumidores;
-	private static final int CANTIDADCONSUMIDORES = 5;
+	private static final int CANTIDADCONSUMIDORES = 1;
 	public static void main(String[] args) {
 
 		SpringApplication.run(CerveceriaApplication.class, args);
